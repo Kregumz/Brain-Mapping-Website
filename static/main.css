@@ -19,8 +19,17 @@ body{
 	
 }
 
-.nav-item, .navbar-brand{
+.nav-item{
 	color: #0D7ECF
+}
+
+.navbar-brand{
+	color: #BA3249;
+}
+
+#logo{
+	width: 40px;
+	margin-right: 5px;
 }
 
 
@@ -183,7 +192,7 @@ body{
 
 #button-div{
 
-	margin-top: 70px;
+	margin-top: 50px;
 }
 
 #alert-div{
@@ -210,11 +219,23 @@ body{
 .non-brain-content{
 	width: 88%;
 	margin: 0 auto;
-	padding: 20px;
+	padding: 30px;
 	background-color: white;
 	border: 1px solid gray;
 	border-radius: 20px;
 
+}
+
+#about-text{
+	line-height: 2
+}
+
+#about-contributors{
+	margin-bottom: 20px;
+}
+
+#references{
+	margin-top: 30px;
 }
 
 #faq-div-container h5{
