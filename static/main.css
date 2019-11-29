@@ -192,7 +192,12 @@ body{
 
 #button-div{
 
-	margin-top: 50px;
+	position: absolute;
+	bottom: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
 }
 
 #alert-div{
@@ -338,18 +343,69 @@ body{
 		margin-bottom: 30px;
 	}
 
+	#selections{
+		font-size: 28px;
+	}
+
+
 	
 }
 
 
 @media (max-width: 700px){
+
+	
 	#sumarry, .card-body, #note, #qOne, #qTwo, #qThree, #summary{
 		font-size: 14px;
 	}
 
+	#selections{
+		font-size: 24px;
+	}
 
+	#summary{
+		margin-top: 10px;
+	}
+
+
+	#brain-div-container, .no-brain-content{
+		width: 100%;
+	}
+
+	#button-div{
+		bottom: 145px;
+	}
+
+	#quiz-q1, #quiz-q2{
+		font-size: 18px;
+	}
+
+	#quiz-q1{
+		padding-top: 20px;
+	}
+
+
+	#quiz-questions-div label{
+		padding-right: 5%;
+	}
+
+	.reference{
+		 white-space: normal;
+  		 word-break: break-all
+	}
+
+
+
+	}
+
+	@media (max-width: 400px){
+	#button-div{
+		bottom: 120px;
+	}
 
 	#brain-info-div{
-		height: 650px;
+		height: 660px;
 	}
+
+
 }
