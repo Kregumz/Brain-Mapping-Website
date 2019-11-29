@@ -376,15 +376,14 @@ body{
 	}
 
 	#button-div{
-		bottom: 210px;
+		position: static;
+		margin-top: 40px;
 	}
 
 	#quiz-q1, #quiz-q2{
 		font-size: 18px;
-	}
-
-	#quiz-q1{
-		padding-top: 20px;
+		padding-left: 5px;
+		padding-right: 5px;
 	}
 
 
@@ -402,13 +401,11 @@ body{
 	}
 
 @media (max-width: 460px){
-	#button-div{
-		bottom: 190px;
-	}
 
 	#brain-info-div{
 		height: 710px;
 	}
+
 
 }
 
@@ -417,10 +414,6 @@ body{
 
 	#brain-info-div{
 		height: 800px;
-	}
-
-	#button-div{
-		bottom: 200px;
 	}
 
 	#note{
